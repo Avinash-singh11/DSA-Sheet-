@@ -928,6 +928,7 @@ a {
 
   .auth-shell {
     gap: 14px;
+    background: #f4f7f5;
   }
 
   .auth-card {
@@ -943,6 +944,8 @@ a {
 
   .auth-hero {
     gap: 14px;
+    border: 1px solid #223128;
+    background: linear-gradient(135deg, #0f1814 0%, #18261f 100%);
   }
 
   .auth-hero h1 {
