@@ -922,10 +922,36 @@ a {
     padding: 18px;
   }
 
+  .auth-shell {
+    gap: 14px;
+  }
+
+  .auth-card {
+    order: -1;
+    align-self: start;
+  }
+
   .auth-hero,
   .auth-card,
   .setup-card {
     padding: 20px;
+  }
+
+  .auth-hero {
+    gap: 14px;
+  }
+
+  .auth-hero h1 {
+    font-size: clamp(2.15rem, 10vw, 3.3rem);
+    line-height: 0.98;
+  }
+
+  .auth-hero p {
+    line-height: 1.55;
+  }
+
+  .auth-feature-list div {
+    padding: 12px 14px;
   }
 
   .admin-topbar,
