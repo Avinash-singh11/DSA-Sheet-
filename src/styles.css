@@ -696,20 +696,24 @@ a {
 .auth-feature-list {
   display: grid;
   gap: 12px;
-  max-width: 620px;
+  width: min(100%, 540px);
 }
 
 .auth-feature-list div {
   display: grid;
   gap: 4px;
   padding: 14px 16px;
-  border: 1px solid rgba(255, 255, 255, 0.12);
+  border: 1px solid #d8e3dc;
   border-radius: 8px;
-  background: rgba(255, 255, 255, 0.06);
+  background: rgba(255, 255, 255, 0.92);
+}
+
+.auth-feature-list strong {
+  color: #16201b;
 }
 
 .auth-feature-list span {
-  color: #c6d6cd;
+  color: #16201b;
 }
 
 .auth-card,
